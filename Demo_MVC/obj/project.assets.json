@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\ĐẠT ANH\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PTPM_Quan_ly\\Demo_MVC\\Demo_MVC.csproj",
+      "projectUniqueName": "D:\\Net_Core_API\\Demo_MVC\\Demo_MVC.csproj",
       "projectName": "Demo_MVC",
-      "projectPath": "E:\\PTPM_Quan_ly\\Demo_MVC\\Demo_MVC.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\PTPM_Quan_ly\\Demo_MVC\\obj\\",
+      "projectPath": "D:\\Net_Core_API\\Demo_MVC\\Demo_MVC.csproj",
+      "packagesPath": "C:\\Users\\ĐẠT ANH\\.nuget\\packages\\",
+      "outputPath": "D:\\Net_Core_API\\Demo_MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ĐẠT ANH\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"

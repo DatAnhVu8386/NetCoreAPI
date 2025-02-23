@@ -96,3 +96,14 @@ E:\PTPM_Quan_ly\Demo_MVC\obj\Debug\net9.0\refint\Demo_MVC.dll
 E:\PTPM_Quan_ly\Demo_MVC\obj\Debug\net9.0\Demo_MVC.pdb
 E:\PTPM_Quan_ly\Demo_MVC\obj\Debug\net9.0\Demo_MVC.genruntimeconfig.cache
 E:\PTPM_Quan_ly\Demo_MVC\obj\Debug\net9.0\ref\Demo_MVC.dll
+D:\Net_Core_API\Demo_MVC\obj\Debug\net9.0\Demo_MVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Net_Core_API\Demo_MVC\obj\Debug\net9.0\Demo_MVC.AssemblyInfoInputs.cache
+D:\Net_Core_API\Demo_MVC\obj\Debug\net9.0\Demo_MVC.AssemblyInfo.cs
+D:\Net_Core_API\Demo_MVC\obj\Debug\net9.0\Demo_MVC.csproj.CoreCompileInputs.cache
+D:\Net_Core_API\Demo_MVC\obj\Debug\net9.0\Demo_MVC.MvcApplicationPartsAssemblyInfo.cache
+D:\Net_Core_API\Demo_MVC\obj\Debug\net9.0\Demo_MVC.RazorAssemblyInfo.cache
+D:\Net_Core_API\Demo_MVC\obj\Debug\net9.0\Demo_MVC.RazorAssemblyInfo.cs
+D:\Net_Core_API\Demo_MVC\obj\Debug\net9.0\Demo_MVC.sourcelink.json
+D:\Net_Core_API\Demo_MVC\obj\Debug\net9.0\Demo_MVC.dll
+D:\Net_Core_API\Demo_MVC\obj\Debug\net9.0\refint\Demo_MVC.dll
+D:\Net_Core_API\Demo_MVC\obj\Debug\net9.0\Demo_MVC.pdb
