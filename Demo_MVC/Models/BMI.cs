@@ -1,11 +1,9 @@
 
-using System.ComponentModel.DataAnnotations;
-using System.Security.Cryptography;
-
-public class BMI 
+namespace Demo_MVC.Models
 {
-    public int Height { get; set; }
-    public int Weight { get; set; }
-    
+    public class BMI
+    {
+        public double weight { get; set; }
+        public double height { get; set; }
+    } 
 }
-

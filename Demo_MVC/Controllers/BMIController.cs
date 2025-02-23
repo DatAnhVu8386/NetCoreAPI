@@ -1,53 +1,40 @@
+
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Demo_MVC.Models;
-
-namespace Demo_MVC.Controllers;
-
+ namespace Demo_MVC.Controllers
+ {
     public class BMIController : Controller
     {
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult Index() 
         {
             return View();
         }
         [HttpPost]
-        public IActionResult Index(BMI bmi)
+        public IActionResult Index(BMI all)
         {
-            float height = bmi.Height;
-            float weight = bmi.Weight;
-            float bmiValue = weight / ((height * height)/10000);
-            string strOutput = "Chiều cao: " + height + " cm, Cân nặng: " + weight + " kg, Chỉ số BMI: " + bmiValue;
-            if (bmiValue < 18.5)
+            double chiso = all.weight/(all.height*all.height);
+            if (chiso < 18.5)
             {
-                strOutput += " (Thiếu cân)";
+                ViewBag.Message = "BMI của bạn là "+ Math.Round(chiso,2) + " Gầy";
+                return View();
             }
-            else if (bmiValue < 24.9)
+            else if(chiso >= 18.5 && chiso <= 24.9)
             {
-                strOutput += " (Bình thường)";
+                ViewBag.Message = "BMI của bạn là "+ Math.Round(chiso,2) + " Bình thường";
+                return View();
             }
-            else if (bmiValue < 29.9)
+            else if(chiso >= 25 && chiso <= 29.9)
             {
-                strOutput += " (Thừa cân)";
-            }
-            else if (bmiValue <34.9)
-            {
-                strOutput += " (Béo phì 1)";
+                ViewBag.Message = "BMI của bạn là "+ Math.Round(chiso,2) + " Thừa cân";
+                return View();
             }
             else 
             {
-                strOutput += " (Béo phì 2)";
+                ViewBag.Message = "BMI của bạn là "+ Math.Round(chiso,2) + " Béo phì";
+                return View();
             }
-            ViewBag.infoBMI = strOutput;
-            return View();
-        }
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
+ }
