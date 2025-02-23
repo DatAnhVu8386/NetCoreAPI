@@ -52,12 +52,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Net_Core_API/Demo_MVC/Views/tinhdiem/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdGluaGRpZW1cSW5kZXguY3NodG1s
+[D:/Net_Core_API/Demo_MVC/Views/TinhDiem/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGluaERpZW1cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Net_Core_API/Demo_MVC/Views/tinhhoadon/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdGluaGhvYWRvblxJbmRleC5jc2h0bWw=
+[D:/Net_Core_API/Demo_MVC/Views/TinhHoaDon/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGluaEhvYURvblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Net_Core_API/Demo_MVC/Views/_ViewImports.cshtml]
